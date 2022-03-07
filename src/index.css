@@ -91,7 +91,8 @@ button {
 .listingDetails,
 .category,
 .explore {
-  margin: 1rem;
+  margin: 4rem;
+  scroll-behaviour: smooth;
 }
 @media (min-width: 1024px) {
   .pageContainer,
@@ -293,7 +294,7 @@ button {
   color: #00cc66;
   font-weight: 600;
   text-align: center;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 
 @media (min-width: 1217px) {
