@@ -5,7 +5,7 @@ import bedIcon from '../assets/svg/bedIcon.svg'
 import bathtubIcon from '../assets/svg/bathtubIcon.svg'
 
 
-function ListingItem({listing, id}) {
+function ListingItem({listing, id, onDelete}) {
   return (
     <li className='categoryListing'>
     <Link to={`/category/${listing.type}/${id}`} className='categoryListingLink'>
@@ -43,6 +43,9 @@ function ListingItem({listing, id}) {
           </div>
       </div>
     </Link>
+    {onDelete && (
+<DeleteIcon className='removeIcon' fill='rgb(231,76,60' onClick={onDelete(listing.id, listing.name)} />
+)}
     </li>
   )
 }
