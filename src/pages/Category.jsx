@@ -6,7 +6,7 @@ import {db} from '../firebase.config'
 import {toast} from 'react-toastify'
 import Spinner from '../components/Spinner'
 import ListingItem from '../components/ListingItem'
-import { async } from '@firebase/util'
+// import { async } from '@firebase/util'
 
 function Category() {
     const [listings, setListings] = useState(null)

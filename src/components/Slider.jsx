@@ -10,7 +10,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import Spinner from './Spinner'
-import { async } from '@firebase/util'
+// import { async } from '@firebase/util'
 
 function Slider() {
 
