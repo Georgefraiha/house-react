@@ -14,6 +14,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 ## [Preview App](https://house-react.vercel.app/)
 
 ![preview image 1](https://github.com/Georgefraiha/house-react/blob/main/Screenshots/1.jpg?raw=true)
+
 ![preview image 2](https://github.com/Georgefraiha/house-react/blob/main/Screenshots/2.jpg?raw=trueg)
 
 ![preview image 3](https://github.com/Georgefraiha/house-react/blob/main/Screenshots/3.jpg?raw=true)
